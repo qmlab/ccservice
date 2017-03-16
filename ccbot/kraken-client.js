@@ -1,5 +1,5 @@
 var KrakenClient = require('kraken-api');
-var kraken = new KrakenClient('yRzjjnXM5UNIB9WBB0aJu/grknfeqwa7BImIo1ycp6ol07n+zBOqcGBu', 'SapX8wASY9XSbHTG5tXZyrXwY4UbDwVXlgIjhFjDUWxDULzIo7b4Nt/PqfaodVZkdcwSo62+t3YrKg7MOwgu2Q==');
+var kraken = new KrakenClient('abc', 'def');
 
 // Get Ticker Info
 module.exports.query = function (name, callback) {
